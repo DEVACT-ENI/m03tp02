@@ -1,17 +1,17 @@
-package fr.eni.tp.m03tp02.bll.mock;
+package fr.eni.tp.filmotheque.bll.mock;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
-import fr.eni.tp.m03tp02.bll.FilmService;
-import fr.eni.tp.m03tp02.bo.Avis;
-import fr.eni.tp.m03tp02.bo.Film;
-import fr.eni.tp.m03tp02.bo.Genre;
-import fr.eni.tp.m03tp02.bo.Membre;
-import fr.eni.tp.m03tp02.bo.Participant;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
+
+import fr.eni.tp.filmotheque.bll.FilmService;
+import fr.eni.tp.filmotheque.bo.Avis;
+import fr.eni.tp.filmotheque.bo.Film;
+import fr.eni.tp.filmotheque.bo.Genre;
+import fr.eni.tp.filmotheque.bo.Membre;
+import fr.eni.tp.filmotheque.bo.Participant;
 
 @Service
 @Profile("dev")
