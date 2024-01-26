@@ -74,3 +74,8 @@ Remplacement de la couleur des liens par défaut à blanc*/
 header a {
 	color: white;
 }
+
+/* 
+Module 04 - TP 6
+I18N*/
+#nav-title div>a>img {width: 25px;}
